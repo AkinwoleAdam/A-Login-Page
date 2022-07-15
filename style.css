@@ -1,0 +1,133 @@
+body {
+    font-size: 15pt;
+    font-family:'Raleway',sans-serif;
+    background:url(images/photo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    box-sizing: border-box;
+     
+}
+
+.loginbox{
+  width:650px;
+  height:700px;
+  background:#fff;
+  color:#000;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding:50px 50px;
+}
+
+.avatar{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  position: absolute;
+  top:-50px;
+  right:calc(50% - 50px);
+}
+
+.loginbox form{
+  text-align: center;
+}
+
+h1{
+  margin-top:50px;
+  padding:20px;
+  font-size:30px;
+  text-align: center;
+}
+
+.loginbox label{
+  margin-top:20px!important;
+  margin:15px;
+  margin-bottom:15px!important;
+  font-weight:550;
+  font-size:22px;
+  padding-bottom:20px;
+  text-align:left !important;
+}
+
+.loginbox input[type="text"],input[type="password"]{
+  margin:10px;
+  padding:10px;
+  width:70%;
+  outline:none;
+ border:none;
+ /*border-radius:20px;*/
+  border-bottom:2px solid blue;
+  background: transparent;
+  color:#000;
+  height:30px;
+  font-size:20px;
+}
+
+.loginbox button {
+  padding:7px;
+  margin-top:30px;
+  margin-bottom:20px;
+  background:blue;
+  color:#fff;
+  border:none;
+  outline:none;
+  border-radius:5px;
+  width:90%;
+  border-radius:20px;
+  font-size:30px;
+  text-align: center;
+}
+
+.loginbox button:hover{
+  background:#ffc107;
+  cursor:pointer;
+}
+
+.loginbox a{
+  color:#fff;
+  text-decoration: none;
+  margin:25px;
+  font-size:20px;
+  color:darkgrey;
+  line-height:1.7;
+  text-align: center!important;
+}
+
+.loginbox a:hover{
+  text-decoration: underline;
+  color:rgb(0,0,226);
+}
+
+@media(max-width:600px){
+  
+  .loginbox{
+    margin:auto;
+  width:90%;
+  height:600px;
+  background:#fff;
+  color:#000;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding:20px 20px;
+  border-radius:15px;
+}
+
+.avatar{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position: absolute;
+  top:-50px;
+  right:calc(50% - 50px);
+}
+
+.loginbox button{
+  width:90%;
+}
+}
